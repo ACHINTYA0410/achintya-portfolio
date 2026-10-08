@@ -1,8 +1,8 @@
 export const personalData = {
   name: "Achintya Mendiratta",
   profile: '/profile.jpeg',
-  designation: "Software Development Engineer",
-  description: "I'm Achintya Mendiratta, a Computer Science undergrad at VIT Vellore focused on backend engineering and applied AI. I build production systems that combine LLM-driven reasoning with deterministic business logic - from an AI-powered Accounts Receivable validation platform using vision LLMs and LangChain, to full-stack apps with Spring Boot, FastAPI, Node.js, and React. I enjoy designing auditable, provider-agnostic systems and I'm always looking for the next hard problem to solve.",
+  designation: "Computer Science Undergraduate",
+  description: "I am a B.Tech. Computer Science student at VIT Vellore (2023–2027), with a CGPA of 8.51/10. I completed internships at LEAD Group and Fudr, working on Accounts Receivable validation, backend APIs, and production systems. My projects include DocGraph AI, MeshPay, and Classroom Assistant.",
   email: 'achintyamendiratta@gmail.com',
   phone: '+91 98111 18106',
   address: 'Vellore, India',

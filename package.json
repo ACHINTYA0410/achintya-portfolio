@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node --test tests/*.cjs"
   },
   "dependencies": {
     "@next/third-parties": "^16.2.7",
@@ -24,6 +25,7 @@
     "autoprefixer": "latest",
     "eslint": "^9.20.0",
     "eslint-config-next": "^16.2.7",
+    "jsdom": "^30.1.2",
     "postcss": "latest",
     "sass": "^1.100.0",
     "tailwindcss": "latest"

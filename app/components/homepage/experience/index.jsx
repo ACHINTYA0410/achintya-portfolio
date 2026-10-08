@@ -66,6 +66,9 @@ function Experience() {
                           <p className="text-sm sm:text-base">
                             {experience.company}
                           </p>
+                          <ul className="mt-4 list-disc pl-5 space-y-2 text-sm text-gray-200">
+                            {experience.details.map((detail) => <li key={detail}>{detail}</li>)}
+                          </ul>
                         </div>
                       </div>
                     </div>

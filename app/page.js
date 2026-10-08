@@ -1,3 +1,4 @@
+import PageMotion from './components/helper/page-motion';
 import AboutSection from "./components/homepage/about";
 import Education from "./components/homepage/education";
 import Experience from "./components/homepage/experience";
@@ -7,13 +8,13 @@ import Skills from "./components/homepage/skills";
 
 export default function Home() {
   return (
-    <div suppressHydrationWarning >
+    <PageMotion>
       <HeroSection />
       <AboutSection />
       <Experience />
       <Skills />
       <Projects />
       <Education />
-    </div>
+    </PageMotion>
   )
 };
